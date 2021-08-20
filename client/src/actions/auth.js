@@ -13,7 +13,7 @@ try {
     console.log(error)
 }
 }
-
+//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
 export const signup=(formData,history)=>async (dispatch)=>{
     try {
         const {data}=await api.signup(formData)
